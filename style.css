@@ -1,0 +1,302 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:black;
+}
+
+.main{
+    background-image: url("asset/images/bgimg.png");
+    margin: 0px;
+    top: 0;
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+nav .buttons{
+    margin-left: auto;
+    margin-right: 80px;
+    padding: 10px;
+    gap: 20px;
+}
+nav span{
+    margin-left: 80px;
+}
+nav span img{
+    height: 50px;
+    width: 140px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav .buttons .signin{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(201, 8, 8);
+    color:aliceblue;
+    border-radius: 7px;
+    position: relative;
+    z-index: 20;
+}
+nav .buttons .lang{
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    color: aliceblue;
+    background-color:rgba(23, 23, 23,0.7);
+    border-color: aliceblue;
+    border size: 1px;
+    border-radius: 7px;
+    position: relative;
+    z-index: 20;
+}
+
+.hero{
+  color: white;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Martal Sans',sans-serif;
+    margin-top: 100px;
+    position: relative;
+    gap: 20px;
+}
+.hero span{
+    /* display: flex;
+    align-content: center;
+    align-items: center; */
+}
+.button2{
+    padding: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    z-index: 10;
+}
+.button2 .email{
+    height: 60px;
+    width: 350px;
+    margin-right: 10px;
+    color: aliceblue;
+    background-color:rgba(23, 23, 23,0.7);
+    border-color: aliceblue;
+    border size: 1px;
+    border-radius: 7px;
+}
+.button2 .start{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(201, 8, 8);
+    color:aliceblue;
+    border-radius: 7px;
+}
+/* .separation{
+    /* background-color: rgb(215, 209, 209);
+    height: 2px;
+   margin-top: 60px; */
+   /* margin-top: 60px;
+   width:100%; height:100px;  
+   border:solid 5px #f6f4f4;
+   border-color:#960533 transparent transparent transparent;
+   border-radius: 100%/60px 60px 0 0;
+   position: relative;
+   text-align: center;
+   justify-content: center;
+   box-shadow: 0px 50px 50px rgba(242, 242, 249, 0.5);
+      
+} */ 
+
+.separation {
+    margin-top: 60px;
+    width: 100%;
+    height: 100px;  
+    border: solid 5px #f6f4f4;
+    border-color: #b61026 transparent transparent transparent;
+    border-radius: 100%/60px 60px 0 0;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.separation::after {
+    content: '';
+    position: absolute;
+    left: 0; /* Adjust this value to control the distance of the shadow from the border */
+    width: 100%;
+    height: 40px; /* Adjust this value to control the thickness of the shadow */
+    background: linear-gradient(to bottom, rgb(11, 11, 89), black);  /* Shadow color */
+    border-radius: 100%/60px 60px 0 0;
+    z-index: -1;
+    
+}
+.secbtn{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.secbtn .lang{
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+    color: aliceblue;
+    background-color:rgba(23, 23, 23,0.7);
+    border-color: aliceblue;
+    border size: 0.1em;
+    border-radius: 7px;   
+}
+.secbtn span{
+    overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+}
+.cards:hover{
+    transform: scale(1.05);
+    border-color: aliceblue;
+}
+.cards{
+    margin-top: 40px;
+    margin-left: 80px;
+    height: 300px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.section2{
+    margin-left: 100px;
+}
+.section2 .join{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom, rgb(27, 13, 59), rgb(43, 14, 46)); 
+    color: aliceblue;
+    margin-top: 50px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.section3{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.section3 span{
+    position: relative;
+    
+}
+.section3 .que{
+    margin-top: 10px;
+    width: 70%;
+    height: 70px;
+    background-color: rgb(48, 49, 49);
+    color: aliceblue;
+}
+.que{
+    display:flex;
+  
+    
+}
+.que p{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+
+}
+
+.que:hover{
+    background-color: rgb(92, 92, 92);
+}
+.section4{
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.btn{
+    padding-top: 20px;
+    position: relative;
+    
+}
+
+.btn .email{
+    height: 60px;
+    width: 710px;
+    margin-right: 10px;
+    color: aliceblue;
+    background-color:rgba(23, 23, 23,0.7);
+    border-color: aliceblue;
+    border size: 1px;
+    border-radius: 7px;
+}
+
+.btn .start{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(201, 8, 8);
+    color:aliceblue;
+    border-radius: 7px;
+}
+
+.end{
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.end table{
+    font-size: smaller;
+    width: 80%;
+    height: 100px;
+    color: rgb(186, 187, 188);
+    margin-top: 50px;
+   
+}
+.done {
+    margin-left: 100px;
+    /* height: 60px;
+    width: 150px; */
+    margin-right: 10px;
+    color: aliceblue;
+    background-color: rgba(35, 34, 34, 0.7);
+    border: 1px solid aliceblue; /* Corrected border syntax */
+    border-radius: 7px;
+}
+
+.done button {
+    border-radius: 7px;
+    height:50px; /* Ensure the button takes up the full height of its parent div */
+    width: 100px; /* Ensure the button takes up the full width of its parent div */
+}
